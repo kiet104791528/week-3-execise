@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #84837f;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f9c74f; /* yellow */
+}
+
+/* MAIN CONTENT */
+main {
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+/* HEADINGS */
+h1 {
+    color: #1f1f1f;
+    font-size: 36px;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #1f1f1f;
+}
+
+/* FAQ BUTTONS */
+.faq-question {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #fff3cd; /* light yellow */
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    border-left: 5px solid #f9c74f;
+}
+
+.faq-question:hover {
+    background-color: #ffe08a;
+}
+
+/* FAQ ANSWERS */
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: white;
+    border-left: 5px solid #f9c74f;
+}
+
+/* FOOTER */
+footer {
+    background-color: #84837f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Active page highlight */
+nav a.active {
+    color: #f9c74f;
+    border-bottom: 2px solid #f9c74f;
+    padding-bottom: 3px;
+}
+
+/* Logo styling */
+.logo-link {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+nav img {
+    height: 48px;
+    width: auto;
+    display: block;
+}
+
+section {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #1f1f1f;
+}
